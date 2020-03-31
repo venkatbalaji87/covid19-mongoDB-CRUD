@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5e8357c7f0fac646dc0f4644"},"name":"Raj","email":"raj@gmail.com","age":"25","city":"fds","symptoms":"Cold and Cough","occupation":"Employee","gender":"Male","maritalStatus":"Unmarried"}
+{"_id":{"$oid":"5e8357c7f0fac646dc0f4654"},"name":"Raj","email":"raj@gmail.com","age":"25","city":"fds","symptoms":"Cold and Cough","occupation":"Employee","gender":"Male","maritalStatus":"Unmarried"}
+{"_id":{"$oid":"5e8357c7f0fac646dc0f4646"},"name":"Raj","email":"raj@gmail.com","age":"25","city":"fds","symptoms":"Cold and Cough","occupation":"Employee","gender":"Male","maritalStatus":"Unmarried"}
+{"_id":{"$oid":"5e8358a579889846dc5e9fee"},"name":"Raj Kumar","email":"raj@gmail.com","age":"25","city":"fds","symptoms":"Cold and Cough","occupation":"Employee","gender":"Male","maritalStatus":"Unmarried"}
