@@ -1,0 +1,40 @@
+<div style="padding-left: 280px;">
+    <a class="btn btn-secondary" href="/patient" style="padding-left: 120px;padding-right: 120px;"><i class="fa fa-plus"></i> Create New</a>
+</div>
+<h4 style="padding-left: 420px;padding-top: 20px;"> OR </h4>
+<h3 style="padding-left: 320px;padding-top: 20px;padding-bottom: 20px;"> View Patient List</h3>
+<table class="table table-striped" style="padding-top: 30px;margin: auto; max-width: 1000px;">
+    <thead>
+        <tr>
+            <th>S.no</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Symptoms</th>
+            <th>Occupation</th>
+            <th>Gender</th>
+            <th>Marital Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.email}}</td>
+            <td>{{this.age}}</td>
+            <td>{{this.city}}</td>
+            <td>{{this.symptoms}}</td>
+            <td>{{this.occupation}}</td>
+            <td>{{this.gender}}</td>
+            <td>{{this.maritalStatus}}</td>
+            <td>
+                <a href="/patient/{{this._id}}">Edit</a>
+                <a href="/patient/delete/{{this._id}}"
+                    onclick="return confirm('Are you sure to delete this record ?');">Delete</a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
